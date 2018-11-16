@@ -9,15 +9,11 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * Hello world!
- *
- */
 public class App 
 {
     public static final String iotHubServiceClientConnectionString = "{IoTHubOwner Policy Shared Access Policy Connection String}";
     public static final String iotHostName = "jbGeneralS1.azure-devices.net";
-    public static final String deviceId = "fmcTest1";
+    public static final String deviceId = "testDevice1";
     public static long expiryTime = 365*24*60*60;
     
     public static void main( String[] args ) throws IOException
